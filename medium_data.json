@@ -1,0 +1,54 @@
+[
+  {
+    "table": [
+      {
+        "content": "The DOCTYPE tells Web browsers what version of HTML your page is using. Technically, it refers to a Document Type Definition (DTD) that specifies the rules for that version of HTML. The DOCTYPE should always the very first line of your HTML code and it IS case sensitive.",
+        "sub_heading": "1. Missing or incorrect DOCTYPE"
+      },
+      {
+        "content": "The character encoding tells the user agent (browser or assistive device) what kind of data to read and display. For most English Web pages, the character encoding will be entered into the Web page like this: <meta charset=”utf-8\"/>. It doesn’t matter whether you type UTF-8 or utf-8.",
+        "sub_heading": "2. Missing Character Encoding"
+      },
+      {
+        "content": "The use of code that is not part of the HTML boundaries is not appropriate. These include the <BLINK> and <MARQUEE> tags, among others. There are also many attributes of HTML tags that many browsers will recognize, but that is not part of the HTML standard.",
+        "sub_heading": "3. Unsupported tags or attributes"
+      },
+      {
+        "content": "The most common mistakes in HTML are usually just plain human mistakes. Here’s a list of HTML no-no’s: Missing quotation marks for attribute values, Missing closing tags, Improperly nested tags.",
+        "sub_heading": "4. Improperly formatted HTML"
+      },
+      {
+        "content": "Tables are a common culprit of improper HTML. Common table mistakes include: Not closing the <table>, <tr>, or <td> tags, Inserting <td>’s outside of a <tr>, Creating tables with differing numbers of cells.",
+        "sub_heading": "5. Improper Tables"
+      },
+      {
+        "content": "All images must have the alt attribute: <img src=”image.gif” alt=” image description”>. As of HTML version 4.01, this is required.",
+        "sub_heading": "6. Missing ALT Text"
+      },
+      {
+        "content": "<title>, <meta>, and <style> tags must be within the <head> and </head> tags.",
+        "sub_heading": "7. Head content must be within the <head>"
+      },
+      {
+        "content": "At the end of the program you should check that you close the tags that are: </body> and </html>.",
+        "sub_heading": "8. Missing </body> or </html> tags"
+      },
+      {
+        "content": "The form tag is a block-level tag. It is a common mistake to use the form tags to surround smaller sections of your page.",
+        "sub_heading": "9. Improper use of form tags"
+      },
+      {
+        "content": "This commonly used HTML extension is not proper HTML for the img tag. If you want your code to be correct, use either align=middle or CSS to align text to the middle of images.",
+        "sub_heading": "10. Align=absmiddle"
+      },
+      {
+        "content": "HTML standards require that you identify the type of scripting language that is being used. Most scripts include the language attribute.",
+        "sub_heading": "11. Missing script type"
+      },
+      {
+        "content": "Any JavaScript that performs a function or outputs information must have a <noscript> tag that provides an alternative or explanation for what the JavaScript does.",
+        "sub_heading": "12. Missing <noscript>"
+      }
+    ]
+  }
+]

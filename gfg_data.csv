@@ -1,0 +1,89 @@
+﻿content,example,practice
+"HTML has a nature that will still render your markup correctly even if you forget to mention some elements such as <html>, <head>, <body>, and <!DOCTYPE html>. You will see the correct result in your browser as you want but that doesn’t mean you will find the same result in every browser. To avoid this issue it’s a good habit to follow a proper document structure with the correct doctype.","HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Welcome Programmers</h1>
+<p>This website is GeeksforGeeks.</p>
+</body>
+</html>",Use Proper Document Structure With Doctype
+"To avoid validation and compatibility issues don’t forget to close all the tags in your code. Today most text editors come up with features that close the HTML tags automatically still, it’s a good practice to make sure that you don’t miss any parent or nested tag that is not closed. In HTML5 it’s optional to close HTML tags but according to W3C specification, you should close all the HTML tags to avoid any validation error in the future.","HTML
+<div>
+    <div>
+        <div>
+            <p>Hello Programmers</p>
+            <ul>
+                <li>Array<li>
+                <li>Linked List<li>
+                <1i>Stack<li>
+           </ul>
+       </div>
+    </div>
+</div>
+<div> Missing close div -->",Close the Tags
+"Make a habit of using lowercase for all the tags, attributes, and values in HTML code. It is an industry-standard practice and it also makes your code much more readable. Capitalizing the tags won’t affect the result in your browser but it’s a good practice to write elements in lowercase.","HTML
+<!-- Wrong practice-->
+<SECTION>
+<p>This is a paragraph.</p>
+</SECTION>
+<!-- Right practice-->
+<section>
+<p>This is a paragraph.</p>
+</section>",Write Tags in Lowercase
+"When you add an image to your HTML code don’t forget to add an alt attribute for validation and accessibility reasons. Also, make sure that you choose the right description for the alt attribute. Search engines rank your page lower as a result when you don’t mention alt attributes with an image. It’s also good to mention the height and width of the image.","HTML
+<!-- Wrong Practice-->
+<img src=""html5.gif"">
+<!-- Right Practice-->
+<img src=""html5.gif"" alt=""HTML5"" style=""width:100px;height:100px;"">",Add Image Attributes
+"A lot of newbies make the mistake they adding inline style in HTML tags. It makes your code complicated to maintain. Make a habit of keeping your styles separate from HTML markup. Using inline styles can create so many problems. It makes your code cluttered, unreadable, and hard to update or maintain.","HTML
+<!-- Wrong Practice -->
+<p style=""color: #393; font-size: 24px;"">Thank you!</p>
+<!-- Right Practice -->
+<p class=""alert-success"">Thank you!</p>",Avoid Using Inline Styles
+HTML title matters a lot when it comes to search engine optimization or ranking of your page. Always try to make your title as meaningful as possible. The title of your HTML page appears in the Google search engine result page and the indexing of your site relies on it.,"HTML
+<meta charset=""UTF-8"" />
+<meta
+name=""viewport""
+content=""width=device-width, initial-scale=1, maximum-scale=1""/>
+<meta
+name=""description""
+content=""A Computer Science portal for geeks. It contains well written,
+well thought and well explained computer science and programming
+articles, quizzes and practice/competitive programming/company
+interview Questions.""/>
+<title>GeeksforGeeks | A computer science portal for geeks</title>",Use a Meaningful Title and Descriptive Meta Tags
+Heading tags also play a crucial role in making your website search engine-friendly. HTML has 6 different types of heading tags that should be used carefully. Learn to use <h1> to <h6> elements to denote your HTML’s content hierarchy also make sure that you use only one h1 per page.,"HTML
+<h1>Topmost heading</h1>
+<h2>Sub-heading underneath the topmost heading.</h2>
+<h3>Sub-heading underneath the h2 heading.</h3>",Use Heading Elements Wisely
+A lot of beginners make the common mistake of using the wrong HTML elements. They need to learn with time which element should be used where. We recommend you learn about all the HTML elements and use them correctly for a meaningful content structure.,"HTML
+<!-- Wrong Practice -->
+<span class=""heading""><strong>Hello Geeks</strong></span>
+<br><br>
+This is Computer Science portal for geeks.
+<br><br>
+<!-- Right Practice -->
+<h1>Hello Geeks</h1>
+<p>This is Computer Science portal for geeks.</p>",Always Use the Right HTML Elements
+It is important to give proper space or indentation in your HTML code to make it more readable and manageable. Avoid writing everything in one line. It makes your code cluttered and flat.,"HTML
+<!-- Bad Code -->
+<aside>
+<h3>GeeksforGeeks</h3>
+<h5>A computer science portal for geeks</h5>
+<ul>
+<li>Computer Science</li>
+<li>Gate</li>
+</ul>
+</aside>
+<!-- Good Code -->
+<aside>
+<h3>GeeksforGeeks</h3>
+<h5>A computer science portal for geeks</h5>
+<ul>
+    <li>Computer Science</li>
+    <li>Gate</li>
+</ul>
+</aside>",Proper Use of Indentation

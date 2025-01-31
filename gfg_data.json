@@ -1,0 +1,51 @@
+[
+  {
+    "html_coding_practices": [
+      {
+        "content": "HTML has a nature that will still render your markup correctly even if you forget to mention some elements such as <html>, <head>, <body>, and <!DOCTYPE html>. You will see the correct result in your browser as you want but that doesn’t mean you will find the same result in every browser. To avoid this issue it’s a good habit to follow a proper document structure with the correct doctype.",
+        "example": "HTML\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Hello World</title>\n</head>\n<body>\n    <h1>Welcome Programmers</h1>\n<p>This website is GeeksforGeeks.</p>\n</body>\n</html>",
+        "practice": "Use Proper Document Structure With Doctype"
+      },
+      {
+        "content": "To avoid validation and compatibility issues don’t forget to close all the tags in your code. Today most text editors come up with features that close the HTML tags automatically still, it’s a good practice to make sure that you don’t miss any parent or nested tag that is not closed. In HTML5 it’s optional to close HTML tags but according to W3C specification, you should close all the HTML tags to avoid any validation error in the future.",
+        "example": "HTML\n<div>\n    <div>\n        <div>\n            <p>Hello Programmers</p>\n            <ul>\n                <li>Array<li>\n                <li>Linked List<li>\n                <1i>Stack<li>\n           </ul>\n       </div>\n    </div>\n</div>\n<div> Missing close div -->",
+        "practice": "Close the Tags"
+      },
+      {
+        "content": "Make a habit of using lowercase for all the tags, attributes, and values in HTML code. It is an industry-standard practice and it also makes your code much more readable. Capitalizing the tags won’t affect the result in your browser but it’s a good practice to write elements in lowercase.",
+        "example": "HTML\n<!-- Wrong practice-->\n<SECTION>\n<p>This is a paragraph.</p>\n</SECTION>\n<!-- Right practice-->\n<section>\n<p>This is a paragraph.</p>\n</section>",
+        "practice": "Write Tags in Lowercase"
+      },
+      {
+        "content": "When you add an image to your HTML code don’t forget to add an alt attribute for validation and accessibility reasons. Also, make sure that you choose the right description for the alt attribute. Search engines rank your page lower as a result when you don’t mention alt attributes with an image. It’s also good to mention the height and width of the image.",
+        "example": "HTML\n<!-- Wrong Practice-->\n<img src=\"html5.gif\">\n<!-- Right Practice-->\n<img src=\"html5.gif\" alt=\"HTML5\" style=\"width:100px;height:100px;\">",
+        "practice": "Add Image Attributes"
+      },
+      {
+        "content": "A lot of newbies make the mistake they adding inline style in HTML tags. It makes your code complicated to maintain. Make a habit of keeping your styles separate from HTML markup. Using inline styles can create so many problems. It makes your code cluttered, unreadable, and hard to update or maintain.",
+        "example": "HTML\n<!-- Wrong Practice -->\n<p style=\"color: #393; font-size: 24px;\">Thank you!</p>\n<!-- Right Practice -->\n<p class=\"alert-success\">Thank you!</p>",
+        "practice": "Avoid Using Inline Styles"
+      },
+      {
+        "content": "HTML title matters a lot when it comes to search engine optimization or ranking of your page. Always try to make your title as meaningful as possible. The title of your HTML page appears in the Google search engine result page and the indexing of your site relies on it.",
+        "example": "HTML\n<meta charset=\"UTF-8\" />\n<meta\nname=\"viewport\"\ncontent=\"width=device-width, initial-scale=1, maximum-scale=1\"/>\n<meta\nname=\"description\"\ncontent=\"A Computer Science portal for geeks. It contains well written,\nwell thought and well explained computer science and programming\narticles, quizzes and practice/competitive programming/company\ninterview Questions.\"/>\n<title>GeeksforGeeks | A computer science portal for geeks</title>",
+        "practice": "Use a Meaningful Title and Descriptive Meta Tags"
+      },
+      {
+        "content": "Heading tags also play a crucial role in making your website search engine-friendly. HTML has 6 different types of heading tags that should be used carefully. Learn to use <h1> to <h6> elements to denote your HTML’s content hierarchy also make sure that you use only one h1 per page.",
+        "example": "HTML\n<h1>Topmost heading</h1>\n<h2>Sub-heading underneath the topmost heading.</h2>\n<h3>Sub-heading underneath the h2 heading.</h3>",
+        "practice": "Use Heading Elements Wisely"
+      },
+      {
+        "content": "A lot of beginners make the common mistake of using the wrong HTML elements. They need to learn with time which element should be used where. We recommend you learn about all the HTML elements and use them correctly for a meaningful content structure.",
+        "example": "HTML\n<!-- Wrong Practice -->\n<span class=\"heading\"><strong>Hello Geeks</strong></span>\n<br><br>\nThis is Computer Science portal for geeks.\n<br><br>\n<!-- Right Practice -->\n<h1>Hello Geeks</h1>\n<p>This is Computer Science portal for geeks.</p>",
+        "practice": "Always Use the Right HTML Elements"
+      },
+      {
+        "content": "It is important to give proper space or indentation in your HTML code to make it more readable and manageable. Avoid writing everything in one line. It makes your code cluttered and flat.",
+        "example": "HTML\n<!-- Bad Code -->\n<aside>\n<h3>GeeksforGeeks</h3>\n<h5>A computer science portal for geeks</h5>\n<ul>\n<li>Computer Science</li>\n<li>Gate</li>\n</ul>\n</aside>\n<!-- Good Code -->\n<aside>\n<h3>GeeksforGeeks</h3>\n<h5>A computer science portal for geeks</h5>\n<ul>\n    <li>Computer Science</li>\n    <li>Gate</li>\n</ul>\n</aside>",
+        "practice": "Proper Use of Indentation"
+      }
+    ]
+  }
+]
